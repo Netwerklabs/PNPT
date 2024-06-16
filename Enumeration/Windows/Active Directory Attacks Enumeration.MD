@@ -218,12 +218,11 @@ Before we can start Bloodhound, we need to load Neo4j:
 
 ```powershell
 **sudo neo4j console**
-```
+
 
 In another Terminal tab, run **`bloodhound --no-sandbox`**. This will show you the authentication GUI:
 
-![Untitled](Active%20Directory%20Attacks%20Enumeration%2066939fbf2e1047318b7a2d2ced4d28ec/Untitled.png)
-
+![alt text](image-1.png)
 The default credentials for the neo4j database will be **`neo4j:neo4j`**. Use this to authenticate in Bloodhound. To import our results, you will need to recover the ZIP file from the Windows host. 
 
 **`scp <AD Username>@THMJMP1.za.tryhackme.com:C:/Users/<AD Username>/Documents/<Sharphound ZIP> .`**
