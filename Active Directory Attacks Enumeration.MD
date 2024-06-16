@@ -449,4 +449,4 @@ kerbrute userenum -d NLABS.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_users
 - Enumerate the domain using built-in tools or offensive tools such as BloodHound and PowerView.
 - Perform Kerberoasting / ASREPRoasting attacks within the same domain.
 
-## **LLMNR/NBT-NS Poisoning - from Linux**
+
